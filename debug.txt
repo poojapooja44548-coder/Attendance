@@ -1,0 +1,6 @@
+Finger called: 2026-09-22 02:24:02 GET: {"id":"7"} POST: []
+SQL: INSERT INTO attendance (student_id, attendance_date, status, type) VALUES ('7', '2026-09-22', 'Present', 'Finger') ON DUPLICATE KEY UPDATE status='Present', type='Finger' Result: OK
+Finger called: 2026-09-22 02:26:28 GET: {"id":"1"} POST: []
+SQL: INSERT INTO attendance (student_id, attendance_date, status, type) VALUES ('1', '2026-09-22', 'Present', 'Finger') ON DUPLICATE KEY UPDATE status='Present', type='Finger' Result: OK
+Finger called: 2026-09-22 02:56:20 GET: {"id":"1"} POST: []
+SQL: INSERT INTO attendance (student_id, attendance_date, status, type) VALUES ('1', '2026-09-22', 'Present', 'Finger') ON DUPLICATE KEY UPDATE status='Present', type='Finger' Result: OK
